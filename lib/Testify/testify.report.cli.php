@@ -1,5 +1,5 @@
 <?php
-require 'helpers.php';
+require_once('helpers.php');
 
 $result = $suiteResults['fail'] === 0 ? 'pass' : 'fail';
 
